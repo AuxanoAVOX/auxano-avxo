@@ -1,0 +1,129 @@
+# CONTRACT
+
+This document describes what the **Auxano (AVXO)** smart contract **does** and, more importantly, **what it cannot do**.
+
+It is written for non-developers.
+
+---
+
+## Overview
+
+Auxano (AVXO) is a fixed-supply digital artifact implemented as a Soroban (SEP-41) token contract on the Stellar mainnet.
+
+The contract was designed with **minimal capability** and **no ongoing authority**.
+
+Once initialized, the contract cannot be altered.
+
+---
+
+## Supply
+
+- Total supply is **fixed at 77,000,000,000 AVXO**
+- Supply is minted **once**, during contract initialization
+- No function exists to mint additional tokens
+- No function exists to change the supply
+
+**Inflation is impossible.**
+
+---
+
+## Ownership & Control
+
+The contract has **no admin role**.
+
+There is:
+- No owner
+- No controller
+- No privileged wallet
+- No emergency authority
+
+After initialization, **no address has special power**.
+
+---
+
+## Transfers
+
+- Tokens may be transferred freely by their holder
+- Transfers require cryptographic authorization by the sending address
+- Standard SEP-41 allowance and `transfer_from` mechanics are supported
+
+The contract does **not** restrict:
+- Who may hold AVXO
+- How long AVXO may be held
+- Where AVXO may be sent
+
+---
+
+## Burning
+
+- The contract **does not permit burning**
+- No address can destroy tokens
+- No address can destroy tokens on behalf of others
+
+Tokens may only be removed from circulation through:
+- Loss of private keys
+- Voluntary abandonment
+
+This mirrors the behavior of physical objects.
+
+---
+
+## Freezing, Pausing, or Seizing
+
+The contract does **not** support:
+
+- Freezing balances
+- Pausing transfers
+- Blacklisting addresses
+- Seizing tokens
+- Reclaiming tokens
+- Forcing transfers
+
+All balances are sovereign to their holder.
+
+---
+
+## Upgrades
+
+- The contract contains **no upgrade hooks**
+- The code cannot be replaced
+- The logic cannot be modified
+- The behavior cannot be extended
+
+What exists now is final.
+
+---
+
+## External Control
+
+The contract:
+- Makes no external calls
+- Depends on no off-chain services
+- Has no oracles
+- Has no governance modules
+
+It operates entirely within its own logic.
+
+---
+
+## Summary of Guarantees
+
+The Auxano contract guarantees:
+
+- Fixed supply
+- No inflation
+- No admin powers
+- No seizure
+- No burning
+- No freezing
+- No upgrades
+
+---
+
+## Final Statement
+
+This contract does not manage behavior.
+
+It records state.
+
+AVXO is not governed — it is **encountered**.

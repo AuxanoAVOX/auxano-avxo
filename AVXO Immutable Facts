@@ -1,0 +1,99 @@
+# Immutable Facts — Auxano (AVXO)
+
+This document records the immutable facts of the Auxano (AVXO) smart contract at the time of deployment.
+
+It is intended as a permanent historical snapshot.
+
+---
+
+## Token Identity
+
+- **Name:** Auxano
+- **Symbol:** AVXO
+- **Standard:** SEP-41 (Soroban Token Interface)
+- **Network:** Stellar Mainnet
+- **Decimals:** 7
+
+---
+
+## Supply
+
+- **Total Supply (Fixed):** 77,000,000,000 AVXO
+- **Minting:** One-time at initialization
+- **Further Minting:** Impossible
+- **Burning:** Disabled (no functional burn paths)
+
+The total supply cannot be increased or decreased.
+
+---
+
+## Contract
+
+- **Contract ID:**  
+  `CBNMAFRHCE3G2IKKPCTZ7LAMS26DRMEVEWZANZZUKLHZC3KGJUABA4MY`
+
+- **WASM Hash:**  
+  `0f3da7da98491c9de211d676d8b84c7d3a1486baa28a75fb02ff172fed12e714`
+
+- **Language:** Rust (Soroban SDK)
+- **Upgradeability:** None
+
+---
+
+## Deployment
+
+- **Deployer Address:**  
+  `GBWLIWLPTISOFBFLQMOJJF6TPB3U2CISS664XO4MB4EFGG57UXYJNVSV`
+
+- **Initialization Recipient:**  
+  `GDTZVT3FID6SUZ6ZFLIUGWYLUMN7KJWVG7PTABI2E2NAVSCIJLDCNWZN`
+
+All supply was minted directly to the recipient during initialization.
+
+---
+
+## Authority & Control
+
+- No admin permissions exist after initialization
+- No ownership transfer functions exist
+- No pause, freeze, clawback, or seizure logic exists
+- No upgrade or proxy mechanisms exist
+
+The contract operates autonomously and permanently.
+
+---
+
+## Transfers
+
+- Peer-to-peer transfers are enabled
+- Allowance-based transfers (approve / transfer_from) are enabled
+- All transfers require standard authorization by the sender
+
+---
+
+## Time of Mint
+
+- **Mint Timestamp:**  
+  `2026-01-18 06:07:48 UTC`  
+  (`2026-01-17 23:07:48 US Mountain Time`)
+
+---
+
+## Verification
+
+The full source code required to reproduce the contract is publicly available in this repository.
+
+Any party may independently verify:
+- Source code → WASM
+- WASM → deployed contract
+- Deployed contract → on-chain behavior
+
+---
+
+## Final Statement
+
+Auxano (AVXO) is complete.
+
+There are no future changes, controls, or claims beyond what is written here.
+
+This document is final.

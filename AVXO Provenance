@@ -1,0 +1,58 @@
+## Provenance
+
+**Token:** Auxano (AVXO)  
+**Standard:** SEP-41 (Soroban)
+
+---
+
+### Network
+Stellar Mainnet  
+Public Global Stellar Network ; September 2015
+
+---
+
+### Contract
+**Contract ID:** CBNMAFRHCE3G2IKKPCTZ7LAMS26DRMEVEWZANZZUKLHZC3KGJUABA4MY  
+**WASM Hash:** 0f3da7da98491c9de211d676d8b84c7d3a1486baa28a75fb02ff172fed12e714
+
+---
+
+### Supply
+**Total Supply:** 77,000,000,000 AVXO  
+**Decimals:** 7  
+**Minting:** One-time, at initialization only  
+**Additional Minting:** Impossible
+
+---
+
+### Genesis
+
+**Deployment Account (fee payer):**  
+GBWLIWLPTISOFBFLQMOJJF6TPB3U2CISS664XO4MB4EFGG57UXYJNVSV
+
+**Genesis Recipient (initial holder of total supply):**  
+GDTZVT3FID6SUZ6ZFLIUGWYLUMN7KJWVG7PTABI2E2NAVSCIJLDCNWZN
+
+**Note:**  
+The deployment account never held AVXO.  
+All supply was minted directly by the contract to the genesis recipient
+during the initialization transaction.
+
+---
+
+### Timestamp
+
+**Initialization (Mint) Time:**  
+2026-01-18 06:07:48 UTC  
+(2026-01-17 23:07:48 US Mountain Time)
+
+---
+
+### Immutability
+
+- No mint function exists beyond initialization
+- No burn function exists
+- No admin privileges exist
+- No upgrade path exists
+
+The contract is immutable by design.

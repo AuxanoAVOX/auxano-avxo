@@ -1,0 +1,14 @@
+{
+  "name": "Auxano",
+  "symbol": "AVXO",
+  "decimals": 7,
+  "description": "AVXO is a creative commodity issued on Stellar, conceived as a digital art artifact with fixed supply and immutable issuance.",
+  "image": "https://raw.githubusercontent.com/AuxanoAVOX/auxano-avxo/main/assets/AVXO2.png",
+  "contract": "CBNMAFRHCE3G2IKKPCTZ7LAMS26DRMEVEWZANZZUKLHZC3KGJUABA4MY",
+  "network": "stellar-mainnet",
+  "supply": "77000000000",
+  "issuer": "GDTZVT3FID6SUZ6ZFLIUGWYLUMN7KJWVG7PTABI2E2NAVSCIJLDCNWZN",
+  "deployer": "GBWLIWLPTISOFBFLQMOJJF6TPB3U2CISS664XO4MB4EFGG57UXYJNVSV",
+  "type": "creative-commodity",
+  "repository": "https://github.com/AuxanoAVOX/auxano-avxo"
+}

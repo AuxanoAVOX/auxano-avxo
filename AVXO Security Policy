@@ -1,0 +1,92 @@
+# Security Policy
+
+This document outlines the security posture of the **Auxano (AVXO)** smart contract and how the community may engage with it.
+
+---
+
+## Contract Status
+
+- The Auxano (AVXO) contract is **immutable**
+- The contract has **no admin privileges**
+- The contract has **no upgrade mechanism**
+- The contract has **no minting capability beyond initialization**
+
+As a result, no changes can be made to the contract after deployment.
+
+---
+
+## Scope
+
+This repository contains:
+
+- The complete Soroban smart contract source code
+- Supporting configuration files
+- Documentation describing the contract’s behavior
+
+No off-chain services, APIs, or external dependencies are used.
+
+---
+
+## Vulnerability Reporting
+
+Because the contract is immutable, **no patches can be applied**.
+
+If a vulnerability is discovered:
+
+- It should be reported publicly
+- Findings should reference specific source lines or behaviors
+- Independent verification is encouraged
+
+There is no private disclosure channel.
+
+---
+
+## Responsible Review
+
+Community review is welcomed.
+
+Reviewers are encouraged to focus on:
+
+- Unauthorized minting vectors
+- Unauthorized transfer or seizure paths
+- Privilege escalation
+- Supply manipulation
+- Reentrancy or logic errors
+- State corruption
+
+---
+
+## Wallet Security
+
+Security of private keys is the responsibility of token holders.
+
+The contract does not provide:
+- Key recovery
+- Account guardianship
+- Transfer reversal
+
+Loss of keys results in permanent loss of access.
+
+---
+
+## Third-Party Tools
+
+Interactions with the contract may occur through:
+- Wallet software
+- Explorers
+- Custom clients
+
+The security of these tools is **outside the scope** of this repository.
+
+---
+
+## Final Note
+
+This project favors simplicity over complexity.
+
+Security is achieved through:
+- Minimal logic
+- Fixed behavior
+- Absence of authority
+
+Trust arises from transparency.
